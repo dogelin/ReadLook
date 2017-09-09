@@ -1,0 +1,6 @@
+[ 2017-04-21T10:19:24+08:00 ] 127.0.0.1 /ykj/index.php/Admin/Login/index.html
+ERR: SQLSTATE[HY000] [1049] Base 'ykj' inconnue
+
+[ 2017-04-21T14:22:18+08:00 ] ::1 /ykj/index.php/Admin/Admin/Home/Index/index
+ERR: 非法操作:Home
+

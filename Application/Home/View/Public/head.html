@@ -1,0 +1,16 @@
+<div class="topbar">
+	<div class="inner">
+		<h1 class="logo"><a href="__MODULE__/Index/index" >意空间阅读网</a></h1>
+		<ul class="nav">
+			<volist name="cateres" id="vo">
+			<li 
+				<if condition="$current eq $vo['id']">
+				class="current-menu-item"
+				</if>
+				>
+				<a href="__MODULE__/Cate/index/id/{$vo.id}">{$vo.catename}</a>
+			</li>
+			</volist>
+		</ul>
+	</div>
+</div>
